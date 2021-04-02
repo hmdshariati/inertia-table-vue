@@ -24,7 +24,6 @@
         <span v-if="columnData(item, column)">
           {{ columnData(item, column) }}
         </span>
-        <slot v-else :name="column" :item="item">Data not found</slot>
       </td>
       <td class="border-t w-px">
         <p class="px-4 flex items-center">
